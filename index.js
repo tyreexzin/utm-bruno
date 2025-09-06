@@ -32,7 +32,7 @@ const PUSHINPAY_API_TOKEN = process.env.PUSHINPAY_API_TOKEN;
 const apiId = 20975677; 
 const apiHash = '0135932f04ffcf0647176eef51e9a98c'; 
 const stringSession = new StringSession(TELEGRAM_SESSION || '');
-const CHAT_ID = BigInt(-1003058757684);
+const CHAT_ID = BigInt(-1003039310526);
 
 // --- Configuração do Banco de Dados PostgreSQL ---
 const pool = new Pool({
