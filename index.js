@@ -29,10 +29,10 @@ const FACEBOOK_PIXEL_ID = process.env.FACEBOOK_PIXEL_ID;
 const FACEBOOK_API_TOKEN = process.env.FACEBOOK_API_TOKEN;
 const PUSHINPAY_API_TOKEN = process.env.PUSHINPAY_API_TOKEN;
 
-const apiId = 21745264; 
-const apiHash = '8e2f62ff1c1cc079e6f78866f5248ec1'; 
+const apiId = 20975677; 
+const apiHash = '0135932f04ffcf0647176eef51e9a98c'; 
 const stringSession = new StringSession(TELEGRAM_SESSION || '');
-const CHAT_ID = BigInt(-1002866892586);
+const CHAT_ID = BigInt(--1003058757684);
 
 // --- Configuração do Banco de Dados PostgreSQL ---
 const pool = new Pool({
